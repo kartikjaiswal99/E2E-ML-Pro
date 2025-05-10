@@ -52,7 +52,6 @@ class ModelTrainer:
             params = {
                 "LinearRegression": {
                     'fit_intercept': [True, False],
-                    # 'normalize' is deprecated and removed
                     'positive': [True, False]
                 },
 
